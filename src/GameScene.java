@@ -31,7 +31,7 @@ public static int jump;
         GameScene.pane = pane;
         GameScene.pane.getChildren().add(left.getImage());//mettre l'imageView dans pane (la fenêtre)
         GameScene.pane.getChildren().add(right.getImage());
-        //GameScene.pane.getChildren().add(spike.getImage());
+
 
 
 
@@ -70,15 +70,7 @@ public static int jump;
         }
     };
     public static void update(long time) {
-/*
-        spike.setX(2);
-        //System.out.println("Xr" + right.getX());
-        Rectangle2D viewportRect3 = new Rectangle2D(0, 0,800 , 400);
-        spike.getImage().setX(spike.getX());
-        spike.getImage().setY(spike.getY());
-        spike.getImage().setViewport(viewportRect3);
 
- */
 
 
 
@@ -97,9 +89,6 @@ public static int jump;
         right.getImage().setViewport(viewportRect2);
 
 
-
-
-        //Spike.RunSpike();
 
     }
 

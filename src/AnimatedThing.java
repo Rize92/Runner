@@ -44,11 +44,7 @@ abstract class AnimatedThing {
     }
 
     public static void update(long time) {
-        /**X=X+6;
-        sprite.setX(X);
-        sprite.setY(Y);
-        if(X>1250)X=0;
-        **/
+
         if(temps%8==0) {
 
             if (position== 5) {index = 20;position=0;offset=0;}
@@ -68,21 +64,6 @@ abstract class AnimatedThing {
 
     }
     public static void jump(){
-        //if(temps%8==0){
-        /*
-
-        if (position2== 7) {index = 20;position2=0;Y=250;offset=0;}
-        if (position2 == 6) {index = 425;position2=7;Y=250;offset=0;}
-        if (position2 == 5) {index = 350;position2=6;Y=250;offset=0;}
-        if (position2 == 4) {index = 270;position2=5;Y=250;offset=0;}
-
-        if (position2 == 3) {index = 90;position2=4;offset=160;Y=150;}
-        if (position2 == 2) {index = 20;position2=3;offset=160;Y=100;}
-
-        if (position2 == 1) {index = 175;position2=2;Y=250;offset=0;}
-        if (position2 == 0){ index = 90;position2=1;Y=250;offset=0;}*/
-
-        //for(int i=0;i<500000;i++){
         if(Y<100){Y=100;}
         if(Y>=100 && jumpEnd==0){
 

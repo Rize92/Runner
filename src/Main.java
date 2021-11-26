@@ -14,9 +14,7 @@ public class Main extends Application {
         primaryStage.setTitle("Hello world");
 
 
-        //Image image=new Image("C:\\ridha\\S7\\java\\image\\desert.png");
-        //ImageView imageView=new ImageView(image);
-        //root.getChildren().setAll(imageView);
+
         Group root = new Group();
         Pane pane = new Pane(root);
         Scene theScene = new GameScene(pane, 800, 400);
